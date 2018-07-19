@@ -1,0 +1,19 @@
+{
+  "name": "nem-steam-store-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "nem-library": "^1.0.7",
+    "nem-sdk": "^1.6.7",
+    "socket.io": "^2.1.1"
+  }
+}
